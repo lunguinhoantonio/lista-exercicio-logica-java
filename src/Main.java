@@ -3,7 +3,10 @@ public class Main {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
-        /* 1° QUESTÃO
+        /* 1° QUESTÃO - Escreva um algoritmo que leia um
+        número inteiro positivo (x) e imprima todos os
+        números de 1 até ele (x).
+
         byte x;
         System.out.println("Insira um número positivo para iniciar a contagem: ");
         x = scan.nextByte();
@@ -20,7 +23,10 @@ public class Main {
             }
         }*/
 
-        /* 2° QUESTÃO
+        /* 2° QUESTÃO - Crie um algoritmo que leia 5 notas
+        de um aluno e calcule a média dessas notas.
+        Em seguida, informe se o aluno está aprovado (média 6).
+
         float nota, media, somatorio = 0;
         byte x = 1; // usei essa variável para tudo
 
@@ -43,7 +49,9 @@ public class Main {
         }
         */
 
-        /* 3° QUESTÃO
+        /* 3° QUESTÃO - Desenvolva um algoritmo que leia um
+        número inteiro e imprima a tabuada desse número de 1 a 10.
+
         byte num;
 
         System.out.print("Insira um número: ");
@@ -54,7 +62,10 @@ public class Main {
         }
         */
 
-        /* 4° QUESTÃO
+        /* 4° QUESTÃO - Escreva um algoritmo que leia um
+        número inteiro e calcule a soma de seus dígitos.
+        Por exemplo, se a entrada for 123, a soma será 6 (1 + 2 + 3).
+
         int number, rest, sigma = 0;
         System.out.print("Insira um número: ");
         number = scan.nextInt();
@@ -67,8 +78,10 @@ public class Main {
         System.out.println("O somatório é " + sigma);
         */
 
-        /* 5° QUESTÃO
+        /* 5° QUESTÃO - Escreva um algoritmo que leia uma temperatura
+        em graus Celsius e a converta para Fahrenheit.
         float C, F;
+
         System.out.print("Insira a temperatura em Graus Celsius: ");
         C = scan.nextInt();
         F = C * 9 / 5 + 32;
